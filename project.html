@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="project.css">>
+ <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ <style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.contact {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  margin-left: 650px;
+  padding: 50px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <img class="three" src="logo.png" height="220p" width="220px";>
+  <a href="#about">About</a>
+  <a href="#Education">Education</a>
+  <a href="#Skills">Skills</a>
+  <a href="#Experience">Experience</a>
+  <a href="#Interest">Interest</a>
+  <a href="#My Work">My Work</a>
+  <a href="#Contact">Contact</a>
+</div>
+<section id="about">
+<div class="main">
+  <img src="pg.png">
+  </div> </section> <br><br><br><br><hr>
+
+<section id="Education">
+  <div class="Education">
+    <h1>Education</h1>
+    <p>Web Design & Programming       <br>  Nov 2019 – Present <br>
+Collège CDI Inc Montreal, QC, Canada
+</p><br>
+<p>Master of fine arts in applied arts  <br>  jul 2016 - jul 18 <br>
+Lalit Vibhag, Nagpur University, </p><br>
+<p>Bachelor of Fine Arts in appied arts       <br>         Jul 2010 – Apr 2014 <br>
+D.Y.Patil College, Pune University, India
+</p><br><br>
+
+  </div></section> 
+
+<br><br><br><br><br><hr><br><br><br><br><br><br>
+  <section id="Skills">
+    <div class="Skills"></div>
+  <h1>My Skills</h1>
+
+
+<div class="container"><p>HTML</p>
+  <div class="skills html">90%</div>
+</div>
+
+
+<div class="container"><p>CSS</p>
+  <div class="skills css">80%</div>
+</div>
+
+
+<div class="container"><p>JAVASCRIPT</p>
+  <div class="skills js">65%</div>
+</div>
+
+<div class="container"><p>PHOTOSHOP</p>
+  <div class="skills ps">60%</div>
+</div>
+</section><br><br><br><br><br><hr>
+
+
+
+  <section id="Experience">
+    <div class="Experience">
+      <h1>Experience</h1>
+      <h3>Graphic Designer (2015-18): Chhattisgarh, India.
+          </h3>
+        <p>Roles and responsibilities</p>
+        <ul>
+          <li>Determine the medium best suited to produce the desired visual effect and the most appropriate vehicle for communication</li><br>
+          <li>Develop the graphic elements that meet the clients' objectives</li><br>
+          <li>Prepare sketches, layouts, and graphic elements of the subjects to be rendered using traditional tools, multimedia software and image processing, layout and design software
+</li><br>
+<li>Estimate cost of materials and time to complete graphic design
+</li><br>
+        </ul>
+    </div>
+  </section><br><br><br><br><br><hr>
+
+  <section id="Interest">
+    <div class="Interest">
+      <h1>Interest</h1>
+    <ul>
+      <li>arts</li>
+      <li>books</li>
+      <li>music</li>
+      <li>games</li>
+    </ul>
+  </section> <br><br><br><br><br><hr>
+
+  <section id="My Work">
+    <div class="mywork">
+      <h1>My Work</h1>
+  <a id="two" href="https://github.com/Richa2406">my work</a><br><br>
+</section><br><br><br><br><br><br><br><hr>
+
+  <section id="Contact">
+    <div class="Contact">
+      <h1>Contact</h1>
+      <h4>My Address</h4>
+      <p>13 riverbank road, brampton, Ontario L6R 2H4</p>
+      <h4>My Email</h4>
+      <p>richa.b1992@gmail.com</p>
+      <h4>Call me</h4>
+      <p>+1 647-819-4747</p><hr>
+      <form action="/action_page.php">
+        <label for="fname">Your First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Your Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Message</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Send Message"><br><br><br><br>
+      </form>
+    </div>
+  </div>
+</div>
+
+  </section> <br><br><br><br><br>
+
+
+</body>
+</html> 
